@@ -1,0 +1,372 @@
+
+{
+  "id": "0", "rule": "byte33 <= 0.0182", "decision_tree.criterion": "0.46993376032", "samples": "11243",
+  "left": 
+  {
+    "id": "1", "rule": "byte97 <= 0.0127", "decision_tree.criterion": "0.104961625583", "samples": "4229",
+    "left": 
+    {
+      "id": "2", "rule": "byte130 <= 0.0186", "decision_tree.criterion": "0.0169479143838", "samples": "234",
+      "left": 
+      {
+        "id": "3", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "232", "value": [232.0, 0.0]      
+      },
+      "right": 
+      {
+        "id": "4", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "2", "value": [0.0, 2.0]      
+      }    
+    },
+    "right": 
+    {
+      "id": "5", "rule": "byte4 <= 0.0183", "decision_tree.criterion": "0.0015007495289", "samples": "3995",
+      "left": 
+      {
+        "id": "6", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "3", "value": [3.0, 0.0]      
+      },
+      "right": 
+      {
+        "id": "7", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "3992", "value": [0.0, 3992.0]      
+      }    
+    }  
+  },
+  "right": 
+  {
+    "id": "8", "rule": "byte256 <= 0.8047", "decision_tree.criterion": "0.068480294696", "samples": "7014",
+    "left": 
+    {
+      "id": "9", "rule": "byte33 <= 0.2025", "decision_tree.criterion": "0.0382447935683", "samples": "6717",
+      "left": 
+      {
+        "id": "10", "rule": "byte133 <= 0.1204", "decision_tree.criterion": "0.162648342149", "samples": "1411",
+        "left": 
+        {
+          "id": "11", "rule": "byte33 <= 0.0200", "decision_tree.criterion": "0.0506569644943", "samples": "1269",
+          "left": 
+          {
+            "id": "12", "rule": "byte62 <= 0.0115", "decision_tree.criterion": "0.4352", "samples": "25",
+            "left": 
+            {
+              "id": "13", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "17", "value": [17.0, 0.0]            
+            },
+            "right": 
+            {
+              "id": "14", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "8", "value": [0.0, 8.0]            
+            }          
+          },
+          "right": 
+          {
+            "id": "15", "rule": "byte254 <= 0.0003", "decision_tree.criterion": "0.039385190393", "samples": "1244",
+            "left": 
+            {
+              "id": "16", "rule": "byte233 <= 0.0065", "decision_tree.criterion": "0.197530864198", "samples": "153",
+              "left": 
+              {
+                "id": "17", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "136", "value": [136.0, 0.0]              
+              },
+              "right": 
+              {
+                "id": "18", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "17", "value": [0.0, 17.0]              
+              }            
+            },
+            "right": 
+            {
+              "id": "19", "rule": "byte250 <= 0.0000", "decision_tree.criterion": "0.0145579069144", "samples": "1091",
+              "left": 
+              {
+                "id": "20", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "3", "value": [0.0, 3.0]              
+              },
+              "right": 
+              {
+                "id": "21", "rule": "byte255 <= 0.0001", "decision_tree.criterion": "0.00914893760813", "samples": "1088",
+                "left": 
+                {
+                  "id": "22", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [0.0, 1.0]                
+                },
+                "right": 
+                {
+                  "id": "23", "rule": "byte256 <= 0.7696", "decision_tree.criterion": "0.00733262297843", "samples": "1087",
+                  "left": 
+                  {
+                    "id": "24", "rule": "byte133 <= 0.1197", "decision_tree.criterion": "0.0055248194842", "samples": "1083",
+                    "left": 
+                    {
+                      "id": "25", "rule": "byte33 <= 0.0217", "decision_tree.criterion": "0.00370369095521", "samples": "1078",
+                      "left": 
+                      {
+                        "id": "26", "rule": "byte158 <= 0.0070", "decision_tree.criterion": "0.1171875", "samples": "16",
+                        "left": 
+                        {
+                          "id": "27", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "15", "value": [15.0, 0.0]                        
+                        },
+                        "right": 
+                        {
+                          "id": "28", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [0.0, 1.0]                        
+                        }                      
+                      },
+                      "right": 
+                      {
+                        "id": "29", "rule": "byte254 <= 0.0004", "decision_tree.criterion": "0.00188146587649", "samples": "1062",
+                        "left": 
+                        {
+                          "id": "30", "rule": "byte195 <= 0.0058", "decision_tree.criterion": "0.0997229916898", "samples": "19",
+                          "left": 
+                          {
+                            "id": "31", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "18", "value": [18.0, 0.0]                          
+                          },
+                          "right": 
+                          {
+                            "id": "32", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [0.0, 1.0]                          
+                          }                        
+                        },
+                        "right": 
+                        {
+                          "id": "33", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1043", "value": [1043.0, 0.0]                        
+                        }                      
+                      }                    
+                    },
+                    "right": 
+                    {
+                      "id": "34", "rule": "byte168 <= 0.1067", "decision_tree.criterion": "0.32", "samples": "5",
+                      "left": 
+                      {
+                        "id": "35", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [0.0, 1.0]                      
+                      },
+                      "right": 
+                      {
+                        "id": "36", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "4", "value": [4.0, 0.0]                      
+                      }                    
+                    }                  
+                  },
+                  "right": 
+                  {
+                    "id": "37", "rule": "byte37 <= 0.0594", "decision_tree.criterion": "0.375", "samples": "4",
+                    "left": 
+                    {
+                      "id": "38", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "3", "value": [3.0, 0.0]                    
+                    },
+                    "right": 
+                    {
+                      "id": "39", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [0.0, 1.0]                    
+                    }                  
+                  }                
+                }              
+              }            
+            }          
+          }        
+        },
+        "right": 
+        {
+          "id": "40", "rule": "byte181 <= 0.1601", "decision_tree.criterion": "0.451993652053", "samples": "142",
+          "left": 
+          {
+            "id": "41", "rule": "byte134 <= 0.1234", "decision_tree.criterion": "0.102788279773", "samples": "92",
+            "left": 
+            {
+              "id": "42", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "4", "value": [4.0, 0.0]            
+            },
+            "right": 
+            {
+              "id": "43", "rule": "byte242 <= 0.1707", "decision_tree.criterion": "0.0224690082645", "samples": "88",
+              "left": 
+              {
+                "id": "44", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "87", "value": [0.0, 87.0]              
+              },
+              "right": 
+              {
+                "id": "45", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [1.0, 0.0]              
+              }            
+            }          
+          },
+          "right": 
+          {
+            "id": "46", "rule": "byte33 <= 0.1982", "decision_tree.criterion": "0.2112", "samples": "50",
+            "left": 
+            {
+              "id": "47", "rule": "byte236 <= 0.0992", "decision_tree.criterion": "0.0849382716049", "samples": "45",
+              "left": 
+              {
+                "id": "48", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [0.0, 1.0]              
+              },
+              "right": 
+              {
+                "id": "49", "rule": "byte181 <= 0.1809", "decision_tree.criterion": "0.0444214876033", "samples": "44",
+                "left": 
+                {
+                  "id": "50", "rule": "byte26 <= 0.1814", "decision_tree.criterion": "0.244897959184", "samples": "7",
+                  "left": 
+                  {
+                    "id": "51", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "6", "value": [6.0, 0.0]                  
+                  },
+                  "right": 
+                  {
+                    "id": "52", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [0.0, 1.0]                  
+                  }                
+                },
+                "right": 
+                {
+                  "id": "53", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "37", "value": [37.0, 0.0]                
+                }              
+              }            
+            },
+            "right": 
+            {
+              "id": "54", "rule": "byte42 <= 0.1755", "decision_tree.criterion": "0.32", "samples": "5",
+              "left": 
+              {
+                "id": "55", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [1.0, 0.0]              
+              },
+              "right": 
+              {
+                "id": "56", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "4", "value": [0.0, 4.0]              
+              }            
+            }          
+          }        
+        }      
+      },
+      "right": 
+      {
+        "id": "57", "rule": "byte34 <= 0.4048", "decision_tree.criterion": "0.0018828829072", "samples": "5306",
+        "left": 
+        {
+          "id": "58", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "5095", "value": [5095.0, 0.0]        
+        },
+        "right": 
+        {
+          "id": "59", "rule": "byte98 <= 0.2989", "decision_tree.criterion": "0.0462702994093", "samples": "211",
+          "left": 
+          {
+            "id": "60", "rule": "byte45 <= 0.1914", "decision_tree.criterion": "0.489795918367", "samples": "7",
+            "left": 
+            {
+              "id": "61", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "3", "value": [3.0, 0.0]            
+            },
+            "right": 
+            {
+              "id": "62", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "4", "value": [0.0, 4.0]            
+            }          
+          },
+          "right": 
+          {
+            "id": "63", "rule": "byte113 <= 0.2501", "decision_tree.criterion": "0.00975586312957", "samples": "204",
+            "left": 
+            {
+              "id": "64", "rule": "byte21 <= 0.3249", "decision_tree.criterion": "0.5", "samples": "2",
+              "left": 
+              {
+                "id": "65", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [1.0, 0.0]              
+              },
+              "right": 
+              {
+                "id": "66", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [0.0, 1.0]              
+              }            
+            },
+            "right": 
+            {
+              "id": "67", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "202", "value": [202.0, 0.0]            
+            }          
+          }        
+        }      
+      }    
+    },
+    "right": 
+    {
+      "id": "68", "rule": "byte129 <= 0.0746", "decision_tree.criterion": "0.478908047932", "samples": "297",
+      "left": 
+      {
+        "id": "69", "rule": "byte251 <= 0.0002", "decision_tree.criterion": "0.0997229916898", "samples": "95",
+        "left": 
+        {
+          "id": "70", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "5", "value": [0.0, 5.0]        
+        },
+        "right": 
+        {
+          "id": "71", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "90", "value": [90.0, 0.0]        
+        }      
+      },
+      "right": 
+      {
+        "id": "72", "rule": "byte33 <= 0.2761", "decision_tree.criterion": "0.492941868444", "samples": "202",
+        "left": 
+        {
+          "id": "73", "rule": "byte256 <= 0.9927", "decision_tree.criterion": "0.280447089563", "samples": "83",
+          "left": 
+          {
+            "id": "74", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "10", "value": [10.0, 0.0]          
+          },
+          "right": 
+          {
+            "id": "75", "rule": "byte147 <= 0.3104", "decision_tree.criterion": "0.103584162132", "samples": "73",
+            "left": 
+            {
+              "id": "76", "rule": "byte128 <= 0.3699", "decision_tree.criterion": "0.05475104146", "samples": "71",
+              "left": 
+              {
+                "id": "77", "rule": "byte1 <= 0.2497", "decision_tree.criterion": "0.0281632653061", "samples": "70",
+                "left": 
+                {
+                  "id": "78", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [1.0, 0.0]                
+                },
+                "right": 
+                {
+                  "id": "79", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "69", "value": [0.0, 69.0]                
+                }              
+              },
+              "right": 
+              {
+                "id": "80", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [1.0, 0.0]              
+              }            
+            },
+            "right": 
+            {
+              "id": "81", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "2", "value": [2.0, 0.0]            
+            }          
+          }        
+        },
+        "right": 
+        {
+          "id": "82", "rule": "byte7 <= 0.7519", "decision_tree.criterion": "0.466068780453", "samples": "119",
+          "left": 
+          {
+            "id": "83", "rule": "byte33 <= 0.4362", "decision_tree.criterion": "0.126004382761", "samples": "74",
+            "left": 
+            {
+              "id": "84", "rule": "byte21 <= 0.3928", "decision_tree.criterion": "0.415224913495", "samples": "17",
+              "left": 
+              {
+                "id": "85", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "11", "value": [11.0, 0.0]              
+              },
+              "right": 
+              {
+                "id": "86", "rule": "byte73 <= 0.4519", "decision_tree.criterion": "0.277777777778", "samples": "6",
+                "left": 
+                {
+                  "id": "87", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "5", "value": [0.0, 5.0]                
+                },
+                "right": 
+                {
+                  "id": "88", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "1", "value": [1.0, 0.0]                
+                }              
+              }            
+            },
+            "right": 
+            {
+              "id": "89", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "57", "value": [57.0, 0.0]            
+            }          
+          },
+          "right": 
+          {
+            "id": "90", "rule": "byte145 <= 0.8277", "decision_tree.criterion": "0.231111111111", "samples": "45",
+            "left": 
+            {
+              "id": "91", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "39", "value": [0.0, 39.0]            
+            },
+            "right": 
+            {
+              "id": "92", "criterion": "decision_tree.criterion", "impurity": "0.0", "samples": "6", "value": [6.0, 0.0]            
+            }          
+          }        
+        }      
+      }    
+    }  
+  }
+}

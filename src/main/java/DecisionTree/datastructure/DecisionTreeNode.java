@@ -10,15 +10,60 @@ public class DecisionTreeNode {
     private int classLabel;
     private float thresholdValue;
     private float impurity;
+    private boolean isLeaf;
 
-    DecisionTreeNode right;
-    DecisionTreeNode left;
+    private DecisionTreeNode right;
+    private DecisionTreeNode left;
 
-    public int getId() {
+    public DecisionTreeNode(int id, String label,  float thresholdValue) {
+
+        this.id = id;
+        this.label = label;
+        this.thresholdValue = thresholdValue;
+
+
+        this.isLeaf = false;
+        this.left = null;
+        this.right = null;
+    }
+
+    public DecisionTreeNode(int id, int classLabel, boolean isLeaf) {
+        this.id = id;
+        this.classLabel = classLabel;
+        this.isLeaf = isLeaf;
+    }
+
+    public void setLeft(DecisionTreeNode node) {
+        this.left = node;
+    }
+
+    public void setRight(DecisionTreeNode node) {
+        this.right = node;
+    }
+
+    public DecisionTreeNode getRight() {
+        return this.right;
+    }
+
+    public DecisionTreeNode getLeft() {
+        return this.left;
+    }
+
+    public void setThresholdValue(float value) {
+        this.thresholdValue = value;
+    }
+
+    public void setIsLeaf(boolean value) {
+        this.isLeaf = value;
+    }
+
+    public int getId()
+    {
         return this.id;
     }
 
-    public String getLabel() {
+    public String getLabel()
+    {
         return this.label;
     }
 
@@ -30,7 +75,8 @@ public class DecisionTreeNode {
         return this.thresholdValue;
     }
 
-    public float getImpurity() {
+    public float getImpurity()
+    {
         return this.impurity;
     }
 
