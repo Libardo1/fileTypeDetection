@@ -8,7 +8,7 @@ I highly encourage contributors to develop their own dataset and try out the dif
 
 ## Current Status
 
-Deploy a flask app leveraging decision tree to classify file.
+We are working on scaffolding in the form of a [Flask App](app/) that employs a decision tree to classify files and that uses the built model files from the library.
 
 ## Dependencies
 
@@ -25,6 +25,7 @@ Deploy a flask app leveraging decision tree to classify file.
 - SVM
 - Random Forest Classifier
 - K-Nearest Neighbor Classifier
+- Gradient Boosting Classifier
 
 ### Neural Network Results
 
@@ -69,6 +70,13 @@ Deploy a flask app leveraging decision tree to classify file.
 | Mime type               | Test Accuracy     
 |-------------------------|:------------------
 | application/x-grib      | 98.99
+
+### Gradient Boosting Classifier
+
+| Mime type               | Test Accuracy     
+|-------------------------|:------------------
+| application/x-grib      | 99.91
+
 
 ## Running the project
 
